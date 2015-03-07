@@ -1,0 +1,15 @@
+{
+  "author": "wondible",
+  "build": "78071",
+  "category": ["bugfix", "shader"],
+  "context": "client",
+  "date": "2015/03/07",
+  "description": "Make the game world more visible for HD5000 and perhaps other systems with dark video.  Separate mod required to fix strategic icons.",
+  "display_name": "Gamma Fix",
+  "forum": null,
+  "identifier": "com.wondible.pa.gamma_fix",
+  "priority": 100,
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+
