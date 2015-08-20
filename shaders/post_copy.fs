@@ -17,8 +17,8 @@ void main()
 {
   vec4 texel = texture(PostSourceTexture, v_TexCoord);
 
-  out_FragColor.x = pow(texel.x, 0.4545);
-  out_FragColor.y = pow(texel.y, 0.4545);
-  out_FragColor.z = pow(texel.z, 0.4545);
+  out_FragColor.x = pow(texel.x, 0.5);
+  out_FragColor.y = pow(texel.y, 0.5);
+  out_FragColor.z = pow(texel.z, 0.5);
   out_FragColor.w = texel.w;
 }

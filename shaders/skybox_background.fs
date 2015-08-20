@@ -16,5 +16,5 @@ out vec4 out_FragColor;
 void main() 
 {
     vec4 texel = texture(SkyboxTexture, v_SkyboxDir);
-    out_FragColor = vec4(pow(mix(texel.xyz, Color.xyz, Color.w), vec3(2.2, 2.2, 2.2)), 0.01);
+    out_FragColor = vec4(pow(mix(texel.xyz, Color.xyz, Color.w), vec3(2.0, 2.0, 2.0)), 0.01);
 }
